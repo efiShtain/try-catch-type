@@ -1,6 +1,6 @@
 class Catcher {
   constructor(defaultErrorHandler) {
-    this.defaultErrorHandler = defaultErrorHandler || (err => [err]);
+    this.defaultErrorHandler = defaultErrorHandler || (err => err);
     this.errorHandlers = {};
   }
 
