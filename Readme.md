@@ -10,7 +10,7 @@ npm install @efi.shtain/try-catch-type
 ```
 
 ## Usage
-```
+```javascript
 const Catcher = require("@efi.shtain/try-catch-type");
 
 
